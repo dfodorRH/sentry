@@ -231,6 +231,13 @@ SENTRY_TSDB = 'sentry.tsdb.redis.RedisTSDB'
 
 SENTRY_DIGESTS = 'sentry.digests.backends.redis.RedisBackend'
 
+###################
+# SENTRY_FEATURES #
+###################
+
+# Enables the Custom Inbound Filters feature
+SENTRY_FEATURES['projects:custom-inbound-filters'] = True
+
 ################
 # File storage #
 ################
