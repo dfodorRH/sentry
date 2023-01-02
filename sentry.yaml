@@ -433,7 +433,7 @@ objects:
         securityContext: {}
         terminationGracePeriodSeconds: 30
         serviceAccountName: ${SERVICE_ACCOUNT}
-- apiVersion: batch/v1beta1
+- apiVersion: batch/v1
   kind: CronJob
   metadata:
     labels:
